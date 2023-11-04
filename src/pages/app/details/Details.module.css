@@ -1,0 +1,93 @@
+
+
+.courses_container {
+    width: 90vw;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    padding-block: 1rem;
+    background-color: var(--clr-bg);
+    color: var(--clr-text-main);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.card_container {
+    text-align: center;
+    margin-right: 1rem;
+    margin-block: 1rem;
+}
+
+.card_content h4{
+    color: var(--clr-accent);
+}
+
+p{
+    color: white;
+}
+
+.courses {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.courses::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.image_container img{
+    height: 100px;
+}
+
+.btn_container{
+    margin-top: 5rem;
+    text-align: center;
+
+}
+
+
+.button_73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button_73:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button_73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button_73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
