@@ -68,7 +68,7 @@ export const toggleCompletedThunk = createAsyncThunk(
         });
 
         // Display a notification based on the completed state        
-        if(completed){
+        if(!completed){
             toast.success("Course Completed!");
         } else{
             toast.error("Course Incomplete!");

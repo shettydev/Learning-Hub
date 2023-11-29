@@ -72,7 +72,6 @@ function Courses() {
             );
           })
           }
-/
         </div>
       </div>
       ) : (
